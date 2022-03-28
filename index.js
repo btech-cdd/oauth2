@@ -1,6 +1,5 @@
 const axios = require('axios');
 const mongoose = require('mongoose');
-const oauth2 = require('./libs/oauth2.js');
 const LTIUser = require('../schema/LTIUser.js').model;
 
 const oauth2 = {

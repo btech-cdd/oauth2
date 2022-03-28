@@ -4,5 +4,9 @@
 	"description": "functions used to get oauth2 going in a Canvas lti",
 	"license": "MIT",
 	"repository": "btech-cdd/oauth2",
-	"main": "index.js"
+	"main": "index.js",
+	"dependencies": {
+		"axios": "^0.26.1",
+		"mongoose": "^6.2.8"
+	}
 }
