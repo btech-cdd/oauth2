@@ -1,6 +1,6 @@
 {
 	"name": "@jhveem/oauth2",
-	"version": "1.2.0",
+	"version": "1.2.1",
 	"description": "functions used to get oauth2 going in a Canvas lti",
 	"license": "MIT",
 	"repository": "btech-cdd/oauth2",
