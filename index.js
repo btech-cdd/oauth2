@@ -43,18 +43,13 @@ const oauth2 = {
 
   getUser: async function(lti_name, user_id) {
     let user = undefined;
-    await LTIUser.find({
+    let users = await LTIUser.find({
       lti: lti_name,
       canvasUserId: user_id 
-    }, function(err, users) {
-      if (err) {
-        console.log(err);
-      } else {
-        if (users.length > 0) {
-          user = users[0];
-        }
-      }
     });
+    if (users.length > 0) {
+      user = users[0];
+    }
     return user;
   },
 
