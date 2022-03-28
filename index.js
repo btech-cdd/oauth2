@@ -82,7 +82,10 @@ const oauth2 = {
       user.save();
     });
     return user.accessToken;
-  }
+  },
+
+  LTIUserSchema: LTIUser,
+
 
 };
 
