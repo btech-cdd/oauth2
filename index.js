@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 const LTIUser = require('../schema/LTIUser.js').model;
 
 const oauth2 = {
-postIndex: function(req, res) {
+  postIndex: function(req, res) {
     console.log("INDEX INIT");
     let oauth_url = LTI_URL_BASE + req.originalUrl;
     let parameters = {};
