@@ -1,6 +1,6 @@
 const axios = require('axios');
 const mongoose = require('mongoose');
-const LTIUser = require('../schema/LTIUser.js').model;
+const LTIUser = require('schema/LTIUser.js').model;
 
 const oauth2 = {
   postIndex: function(req, res) {
